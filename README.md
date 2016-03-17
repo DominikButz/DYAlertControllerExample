@@ -15,7 +15,7 @@ source 'https://github.com/DominikButz/DYAlertControllerSpecs.git'
 use_frameworks!
 
 target '[Your app project title]' do
-pod 'DYAlertController', '~> 0.2.5'
+pod 'DYAlertController', '~> 0.2.6'
 end
 
 ```
