@@ -86,7 +86,7 @@ self.presentViewController(alert, animated: true, completion: nil)
 
 ```
 
-![Alert example 1](https://github.com/DominikButz/DYAlertController/gitResources/AlertExample1.gif "Alert example 1")
+![Alert example 1](https://github.com/DominikButz/DYAlertControllerExample/tree/master/gitResources/AlertExample1.gif "Alert example 1")
 
 ### Adding a text field
 ```Swift
@@ -97,7 +97,7 @@ alert.textField!.delegate = self
 ```
 
 
-![Alert example 2](https://github.com/DominikButz/DYAlertController/gitResources/AlertExample2.gif "Alert example 2")
+![Alert example 2](https://github.com/DominikButz/DYAlertControllerExample/tree/master/gitResources/AlertExample2.gif "Alert example 2")
 
 Currently, only **one** text field is supported. Make sure to only add a text field to an alert - just like UIAlertController, **your app will crash at runtime if you try to add a text field to an action sheet**. 
 
@@ -105,10 +105,10 @@ Currently, only **one** text field is supported. Make sure to only add a text fi
 
 Action sheet with simple selection:
 
-![Action Sheet example 1](https://github.com/DominikButz/DYAlertController/gitResources/ActionSheetExample1.gif "ActionSheet example 1")
+![Action Sheet example 1](https://github.com/DominikButz/DYAlertControllerExample/tree/master/gitResources/ActionSheetExample1.gif "ActionSheet example 1")
 
 Action sheet with multiple selection:
-![Action Sheet example 2](https://github.com/DominikButz/DYAlertController/gitResources/ActionSheetExample2.gif "ActionSheet example 2")
+![Action Sheet example 2](https://github.com/DominikButz/DYAlertControllerExample/tree/master/gitResources/ActionSheetExample2.gif "ActionSheet example 2")
 
 ### Customising
 If you intend to create several alerts or action sheets with the same fonts and colours in your app you can simply change the default settings in the DYAlertSettings struct. Alternatively, you can change single properties in code by changing the properties in the struct objects. For example:
