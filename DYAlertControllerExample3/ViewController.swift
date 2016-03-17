@@ -27,7 +27,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
             let titleImage = UIImage(named: "shareIcon")
-            let alert = DYAlertController(style: .Alert, title: "Doing stuff1 stuff2 stuff3 stuff4", titleIconImage: titleImage, message:"Select one option. Lorem ipsum. Gaudeamus igitur. Cogito ergo sum. In vino veritas. .. Carthaginem esse delendam.", cancelButtonTitle: "Cancel", okButtonTitle: nil, multipleSelection: false, customFrameWidth:200, backgroundEffect: DYAlertController.EffectViewMode.blur)
+            let alert = DYAlertController(style: .Alert, title: "Doing stuff", titleIconImage: titleImage, message:"Select one option", cancelButtonTitle: "Cancel", okButtonTitle: nil, multipleSelection: false, customFrameWidth:200, backgroundEffect: DYAlertController.EffectViewMode.blur)
             
  
             

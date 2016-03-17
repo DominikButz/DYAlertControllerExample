@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6F220646FB71975E64031BCB3073131FC185D7D6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CE2A0B5C5D94825804A4DB758AEF2D1E73C25839" : 0,
+    "6F220646FB71975E64031BCB3073131FC185D7D6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CA4C74FE-FC1F-472D-AE38-AA40A04C7A82",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CE2A0B5C5D94825804A4DB758AEF2D1E73C25839" : "..\/Libraries\/DYAlertController",
+    "6F220646FB71975E64031BCB3073131FC185D7D6" : "DYAlertControllerExample3\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DYAlertControllerExample3",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DYAlertControllerExample3.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DominikButz\/DYAlertControllerExample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F220646FB71975E64031BCB3073131FC185D7D6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DominikButz\/DYAlertController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE2A0B5C5D94825804A4DB758AEF2D1E73C25839"
+    }
+  ]
+}
