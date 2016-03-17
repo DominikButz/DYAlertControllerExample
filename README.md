@@ -19,7 +19,7 @@ pod 'DYAlertController', '~> 0.2.5'
 end
 
 ```
-Make sure to import DYAlertController into your View Controller subclass
+Make sure to import DYAlertController into your View Controller subclass:
 
 ```Swift
 	import DYAlertController
@@ -43,8 +43,9 @@ As alternative to UIAlertController, DYAlertController has the following additio
 
 
 ## Usage
-The usage is very similar to UIAlertController. See an alert example below. 
-Before you can access the 
+
+The usage is very similar to UIAlertController. See the following example.
+
 
 ###Code example: Creating an alert
 

@@ -8,6 +8,6 @@ source 'https://github.com/DominikButz/DYAlertControllerSpecs.git'
 use_frameworks!
 
 target 'DYAlertControllerExample3' do
-      pod 'DYAlertController', '~> 0.2.5'
+      pod 'DYAlertController', '~> 0.2.6'
 end
 

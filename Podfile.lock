@@ -1,10 +1,10 @@
 PODS:
-  - DYAlertController (0.2.5)
+  - DYAlertController (0.2.6)
 
 DEPENDENCIES:
-  - DYAlertController (~> 0.2.5)
+  - DYAlertController (~> 0.2.6)
 
 SPEC CHECKSUMS:
-  DYAlertController: 2a2d3f9b88c090496bc83656cf6f02653b07befa
+  DYAlertController: 59d5c8a47f561299f2fcea33e63c21020afcf91d
 
 COCOAPODS: 0.39.0
