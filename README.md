@@ -107,7 +107,9 @@ Action sheet with simple selection:
 
 ![Action Sheet example 1](https://github.com/DominikButz/DYAlertControllerExample/blob/master/gitResources/ActionSheetExample1.gif "ActionSheet example 1")
 
+
 Action sheet with multiple selection:
+
 ![Action Sheet example 2](https://github.com/DominikButz/DYAlertControllerExample/blob/master/gitResources/ActionSheetExample2.gif "ActionSheet example 2")
 
 ### Customising
