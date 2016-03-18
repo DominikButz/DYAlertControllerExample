@@ -9,13 +9,11 @@ Install DYAlertController through Cocoapods. Enter the following information int
 
 ```Ruby
 platform :ios, '8.0'
-source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/DominikButz/DYAlertControllerSpecs.git'
 
 use_frameworks!
 
 target '[Your app project title]' do
-pod 'DYAlertController', '~> 0.2.6'
+pod 'DYAlertController', '~> 0.2.7'
 end
 
 ```
