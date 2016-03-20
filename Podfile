@@ -9,6 +9,6 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'DYAlertControllerExample3' do
-      pod 'DYAlertController', '~> 0.3'
+      pod 'DYAlertController', :path => '~/Documents/Programmieren/Libraries/DYAlertController'
 end
 
