@@ -1,3 +1,7 @@
+[![Version](https://img.shields.io/cocoapods/v/DYAlertController.svg?style=flat)](http://cocoadocs.org/docsets/DYAlertController)
+[![License](https://img.shields.io/cocoapods/l/DYAlertController.svg?style=flat)](http://cocoadocs.org/docsets/DYAlertController)
+[![Platform](https://img.shields.io/cocoapods/p/SimpleAlert.svg?style=flat)](http://cocoadocs.org/docsets/DYAlertController)
+
 # DYAlertController
 
 DYAlertController can be used as a replacement for Apple’s UIAlertController. DYAlertController also features two styles, alert and actionSheet. Tapping an action and tapping the ok or cancel button will trigger actions you define in the action item’s handler or in the cancel and ok button handlers, similar to UIAlertController.
