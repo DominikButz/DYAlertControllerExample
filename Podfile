@@ -2,9 +2,9 @@
 platform :ios, '8.0'
 # Uncomment this line if you're using Swift
 
-#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
-#source 'https://github.com/DominikButz/DYAlertControllerSpecs.git'
+source 'https://github.com/DominikButz/DYAlertControllerSpecs.git'
 
 use_frameworks!
 
