@@ -29,7 +29,7 @@ public struct DYAlertSettings {
     }
     
    public struct TextFieldSettings {
-        public var backgroundColor = UIColor.lightGrayColor()
+        public var backgroundColor = UIColor.lightGrayColor().colorWithAlphaComponent(0.7)
         public var textColor = UIColor.whiteColor()
         public var textFont = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
         
@@ -48,6 +48,13 @@ public struct DYAlertSettings {
         
         public var cornerRadius:CGFloat = 8.0
         public var mainViewBackgroundColor = UIColor.whiteColor()
+    }
+    
+    
+    public struct EffectViewSettings {
+        
+        public var blurViewStyle: UIBlurEffectStyle = .Dark
+        public var dimViewColor = UIColor.blackColor().colorWithAlphaComponent(0.6)
     }
 
     

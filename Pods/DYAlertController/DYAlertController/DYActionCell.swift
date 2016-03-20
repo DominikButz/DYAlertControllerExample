@@ -77,9 +77,11 @@ public class DYActionCell: UITableViewCell {
         print("configure cell called")
         
        self.actionTitleLabel.text = actionItem.title
+       self.actionTitleLabel.font = settings.actionCellFont
+        
         let iconImage = actionItem.iconImage
         self.actionImageView!.image = iconImage?.imageWithRenderingMode(.AlwaysTemplate)
-        self.actionImageView!.contentMode = .Center
+       self.actionImageView!.contentMode = .ScaleAspectFit
         
         self.userInteractionEnabled = (actionItem.style != .Disabled)
         self.hasAccessoryView = hasAccessoryView
@@ -98,12 +100,12 @@ public class DYActionCell: UITableViewCell {
             // no ok button, no checkmarks
             self.selectionStyle = .Gray
             self.tintColor = self.getColour(self.style, selected: true)
-            self.centerViewElements()
+           self.centerViewElements()
 
         }
         
              self.actionTitleLabel.textColor = self.tintColor
-            self.actionTitleLabel.font = settings.actionCellFont
+  
     
     }
     
@@ -136,21 +138,26 @@ public class DYActionCell: UITableViewCell {
 //
     private func centerViewElements() {
         
+    
         if let _ = actionImageView?.image {
-            print("has image")
-            if let imageLeadingConstraint = actionImageView?.constraints[1] {
-                    imageLeadingConstraint.active = false
-         
-                }
-            }
+
+            self.contentView.constraints[2].constant = 5.0
+            
+            let labelWidth = self.actionTitleLabel.frame.size.width
+
+          self.contentView.constraints[0].constant =  self.contentView.frame.size.width / 2 - labelWidth / 2 - self.contentView.constraints[2].constant - actionImageView!.frame.size.width
+            
+
+        }   else {
+            actionImageView?.removeFromSuperview()
+        }
         
+  
         
         let centerLabelConstraint = NSLayoutConstraint(item: self.contentView, attribute: NSLayoutAttribute.CenterX, relatedBy: NSLayoutRelation.Equal, toItem: actionTitleLabel, attribute: NSLayoutAttribute.CenterX, multiplier: 1.0, constant: 0.0)
-        
+  
         self.contentView.addConstraint(centerLabelConstraint)
-        actionTitleLabel.sizeToFit()
-        
-        
+
 
     }
 

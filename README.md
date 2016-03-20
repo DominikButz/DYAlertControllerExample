@@ -13,7 +13,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target '[Your app project title]' do
-pod 'DYAlertController', '~> 0.3'
+pod 'DYAlertController', '~> 0.3.1'
 end
 
 ```
