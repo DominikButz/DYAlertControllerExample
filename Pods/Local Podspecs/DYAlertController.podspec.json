@@ -5,7 +5,7 @@
   },
   "summary": "Replacement for UIAlertController with many customizable features",
   "requires_arc": true,
-  "version": "0.2.7",
+  "version": "0.3",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,7 +16,7 @@
   "homepage": "https://github.com/DominikButz/DYAlertController",
   "source": {
     "git": "https://github.com/DominikButz/DYAlertController.git",
-    "tag": "0.2.7"
+    "tag": "0.3"
   },
   "frameworks": "UIKit",
   "source_files": "DYAlertController**/*.{swift}",
