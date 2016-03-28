@@ -1,541 +1,1281 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		0551C669DA31A5FC5DA1154C3E80D4C8 /* DYAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FFFEBB87FEE8B932CF373250B26AD62 /* DYAlertController.xib */; };
-		12EFC28CD61F3601105807358DE37C9F /* DYAlertSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB25472386090C24FE75812138C7BA /* DYAlertSettings.swift */; };
-		24DCA3E4196526D90384211B7D0F82A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
-		7D7FCB56280CEA319A4318233C504842 /* DYActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84E871FA88CC4D64B4FD6DC5A3E80A1 /* DYActionCell.swift */; };
-		83AD1A25D8947891AD6C4E7389BD56B6 /* DYActionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9E57EC61932E07DFBC0F38FBBD84962 /* DYActionCell.xib */; };
-		91A1FCE7CACDE206ABC8D784093A7B14 /* DYAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C21AD612AF3D5DA6F950362C9975F /* DYAlertController-dummy.m */; };
-		B4672D851EE972357FA0A3CCAE7CB8C3 /* Pods-DYAlertControllerExample3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AF20740BB1A02B61EDC8871B318F46 /* Pods-DYAlertControllerExample3-dummy.m */; };
-		E2A3BB784351F618402C536FA47DAF8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		E5ECE1EA17FBD0D1787201C81CA665EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		F478B05B092F2C3209B3D0CC0BE127AB /* Pods-DYAlertControllerExample3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C562A9639D52316D8104C2FEC8957E /* Pods-DYAlertControllerExample3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F60123CDB45AAA97D4B5C747B716CBB1 /* DYAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828C3447767F540292F5DAC8A001DD3 /* DYAlertController.swift */; };
-		FB6E8CAC25CFD144E561521C0F793602 /* DYAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC316E8C9B34506F1547BEC9661B642 /* DYAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		93F67EF8A832C77220D43C67F5A55D1A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9412185857293ACAC79FCE0F45CA831D;
-			remoteInfo = DYAlertController;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		0D0553E067AC88D92D80723B47DB2526 /* Pods-DYAlertControllerExample3-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYAlertControllerExample3-frameworks.sh"; sourceTree = "<group>"; };
-		100FC3356C5B06839EB53476283C1B44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AC316E8C9B34506F1547BEC9661B642 /* DYAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYAlertController-umbrella.h"; sourceTree = "<group>"; };
-		2EADB2B96672BB2E952398A6CB4D30A4 /* DYAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DYAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		378A78ED3B6A59384B357CB241C33DC6 /* Pods-DYAlertControllerExample3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DYAlertControllerExample3.modulemap"; sourceTree = "<group>"; };
-		3828C3447767F540292F5DAC8A001DD3 /* DYAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DYAlertController.swift; path = DYAlertController/DYAlertController.swift; sourceTree = "<group>"; };
-		412AB28AD7627FA133296ECFD81B5670 /* Pods-DYAlertControllerExample3-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYAlertControllerExample3-acknowledgements.plist"; sourceTree = "<group>"; };
-		47BA5C2263431CA8C5227120D95305E3 /* Pods-DYAlertControllerExample3-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYAlertControllerExample3-resources.sh"; sourceTree = "<group>"; };
-		4DFB7C39AA6977FD51A767D87B0E45BC /* Pods_DYAlertControllerExample3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYAlertControllerExample3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66E27C28DE0194C21AA27EAA872C2E60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74AF20740BB1A02B61EDC8871B318F46 /* Pods-DYAlertControllerExample3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYAlertControllerExample3-dummy.m"; sourceTree = "<group>"; };
-		7696079BF66F25AED8B4800BE1EE1633 /* Pods-DYAlertControllerExample3-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYAlertControllerExample3-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7FFFEBB87FEE8B932CF373250B26AD62 /* DYAlertController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DYAlertController.xib; path = DYAlertController/DYAlertController.xib; sourceTree = "<group>"; };
-		841C21AD612AF3D5DA6F950362C9975F /* DYAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DYAlertController-dummy.m"; sourceTree = "<group>"; };
-		A337D0246D73C5CBF7478286CE3679FE /* DYAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DYAlertController.modulemap; sourceTree = "<group>"; };
-		B7BB6FAC9D8C0628A996510A12849F7B /* Pods-DYAlertControllerExample3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYAlertControllerExample3.debug.xcconfig"; sourceTree = "<group>"; };
-		B7C562A9639D52316D8104C2FEC8957E /* Pods-DYAlertControllerExample3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYAlertControllerExample3-umbrella.h"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C12F0F247A820593842F1D043C44AE8D /* Pods-DYAlertControllerExample3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYAlertControllerExample3.release.xcconfig"; sourceTree = "<group>"; };
-		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D9E57EC61932E07DFBC0F38FBBD84962 /* DYActionCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DYActionCell.xib; path = DYAlertController/DYActionCell.xib; sourceTree = "<group>"; };
-		DAA1D6B2DBA33D614AE433CD98FDEB1C /* DYAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYAlertController.xcconfig; sourceTree = "<group>"; };
-		E2FB25472386090C24FE75812138C7BA /* DYAlertSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DYAlertSettings.swift; path = DYAlertController/DYAlertSettings.swift; sourceTree = "<group>"; };
-		E8B783F322D08636C9E13194CB081652 /* DYAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYAlertController-prefix.pch"; sourceTree = "<group>"; };
-		F84E871FA88CC4D64B4FD6DC5A3E80A1 /* DYActionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DYActionCell.swift; path = DYAlertController/DYActionCell.swift; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		08765994DD5F432F18ABB351EDB01B2E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5ECE1EA17FBD0D1787201C81CA665EC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB02216D0C687913A96FC0D9138FA07A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2A3BB784351F618402C536FA47DAF8E /* Foundation.framework in Frameworks */,
-				24DCA3E4196526D90384211B7D0F82A7 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		161A1D74A0D5DC96B5C18205B0E401E1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2EADB2B96672BB2E952398A6CB4D30A4 /* DYAlertController.framework */,
-				4DFB7C39AA6977FD51A767D87B0E45BC /* Pods_DYAlertControllerExample3.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
-				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		1DBC6284CB351E7A688F3731FEC5B3F3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D9E57EC61932E07DFBC0F38FBBD84962 /* DYActionCell.xib */,
-				7FFFEBB87FEE8B932CF373250B26AD62 /* DYAlertController.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				18340F12838DEE43507667CC74401EB1 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		67CDC25401EC6177DE136F8383F03F07 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C228A04C99AA5CB6F8284CC2389D0625 /* DYAlertController */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				67CDC25401EC6177DE136F8383F03F07 /* Pods */,
-				161A1D74A0D5DC96B5C18205B0E401E1 /* Products */,
-				9D3DD4A1CFB43127FEF2DAA994DA990D /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		86931D6EFB01DE2F9B3C4B946FA63B59 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A337D0246D73C5CBF7478286CE3679FE /* DYAlertController.modulemap */,
-				DAA1D6B2DBA33D614AE433CD98FDEB1C /* DYAlertController.xcconfig */,
-				841C21AD612AF3D5DA6F950362C9975F /* DYAlertController-dummy.m */,
-				E8B783F322D08636C9E13194CB081652 /* DYAlertController-prefix.pch */,
-				1AC316E8C9B34506F1547BEC9661B642 /* DYAlertController-umbrella.h */,
-				100FC3356C5B06839EB53476283C1B44 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DYAlertController";
-			sourceTree = "<group>";
-		};
-		9D3DD4A1CFB43127FEF2DAA994DA990D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C886E2A97641FA88EC1D0E81F293A33E /* Pods-DYAlertControllerExample3 */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C228A04C99AA5CB6F8284CC2389D0625 /* DYAlertController */ = {
-			isa = PBXGroup;
-			children = (
-				F84E871FA88CC4D64B4FD6DC5A3E80A1 /* DYActionCell.swift */,
-				3828C3447767F540292F5DAC8A001DD3 /* DYAlertController.swift */,
-				E2FB25472386090C24FE75812138C7BA /* DYAlertSettings.swift */,
-				1DBC6284CB351E7A688F3731FEC5B3F3 /* Resources */,
-				86931D6EFB01DE2F9B3C4B946FA63B59 /* Support Files */,
-			);
-			path = DYAlertController;
-			sourceTree = "<group>";
-		};
-		C886E2A97641FA88EC1D0E81F293A33E /* Pods-DYAlertControllerExample3 */ = {
-			isa = PBXGroup;
-			children = (
-				66E27C28DE0194C21AA27EAA872C2E60 /* Info.plist */,
-				378A78ED3B6A59384B357CB241C33DC6 /* Pods-DYAlertControllerExample3.modulemap */,
-				7696079BF66F25AED8B4800BE1EE1633 /* Pods-DYAlertControllerExample3-acknowledgements.markdown */,
-				412AB28AD7627FA133296ECFD81B5670 /* Pods-DYAlertControllerExample3-acknowledgements.plist */,
-				74AF20740BB1A02B61EDC8871B318F46 /* Pods-DYAlertControllerExample3-dummy.m */,
-				0D0553E067AC88D92D80723B47DB2526 /* Pods-DYAlertControllerExample3-frameworks.sh */,
-				47BA5C2263431CA8C5227120D95305E3 /* Pods-DYAlertControllerExample3-resources.sh */,
-				B7C562A9639D52316D8104C2FEC8957E /* Pods-DYAlertControllerExample3-umbrella.h */,
-				B7BB6FAC9D8C0628A996510A12849F7B /* Pods-DYAlertControllerExample3.debug.xcconfig */,
-				C12F0F247A820593842F1D043C44AE8D /* Pods-DYAlertControllerExample3.release.xcconfig */,
-			);
-			name = "Pods-DYAlertControllerExample3";
-			path = "Target Support Files/Pods-DYAlertControllerExample3";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		43E676B541BFE936D88C90BB4B347DB7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F478B05B092F2C3209B3D0CC0BE127AB /* Pods-DYAlertControllerExample3-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EC91CC4497EDA1BEB69BB884439F6EA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB6E8CAC25CFD144E561521C0F793602 /* DYAlertController-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		9412185857293ACAC79FCE0F45CA831D /* DYAlertController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 30DCB469BEF22074E0656AF74C281097 /* Build configuration list for PBXNativeTarget "DYAlertController" */;
-			buildPhases = (
-				47B5F71F71CD56695D52CE4FBD2E1ED6 /* Sources */,
-				FB02216D0C687913A96FC0D9138FA07A /* Frameworks */,
-				1A570D6FF47D7730266A5B275E1E6095 /* Resources */,
-				4EC91CC4497EDA1BEB69BB884439F6EA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DYAlertController;
-			productName = DYAlertController;
-			productReference = 2EADB2B96672BB2E952398A6CB4D30A4 /* DYAlertController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A19787E70D9EC4352FF02C1F19848C5E /* Pods-DYAlertControllerExample3 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 56579609DDB78334BE151CAE18E8F536 /* Build configuration list for PBXNativeTarget "Pods-DYAlertControllerExample3" */;
-			buildPhases = (
-				C0DB08D51AAA06BD1BD3E9C04D7B8A85 /* Sources */,
-				08765994DD5F432F18ABB351EDB01B2E /* Frameworks */,
-				43E676B541BFE936D88C90BB4B347DB7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE990ED8F642F93E5480B983C9583237 /* PBXTargetDependency */,
-			);
-			name = "Pods-DYAlertControllerExample3";
-			productName = "Pods-DYAlertControllerExample3";
-			productReference = 4DFB7C39AA6977FD51A767D87B0E45BC /* Pods_DYAlertControllerExample3.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
-			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 161A1D74A0D5DC96B5C18205B0E401E1 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				9412185857293ACAC79FCE0F45CA831D /* DYAlertController */,
-				A19787E70D9EC4352FF02C1F19848C5E /* Pods-DYAlertControllerExample3 */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		1A570D6FF47D7730266A5B275E1E6095 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83AD1A25D8947891AD6C4E7389BD56B6 /* DYActionCell.xib in Resources */,
-				0551C669DA31A5FC5DA1154C3E80D4C8 /* DYAlertController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		47B5F71F71CD56695D52CE4FBD2E1ED6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D7FCB56280CEA319A4318233C504842 /* DYActionCell.swift in Sources */,
-				91A1FCE7CACDE206ABC8D784093A7B14 /* DYAlertController-dummy.m in Sources */,
-				F60123CDB45AAA97D4B5C747B716CBB1 /* DYAlertController.swift in Sources */,
-				12EFC28CD61F3601105807358DE37C9F /* DYAlertSettings.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C0DB08D51AAA06BD1BD3E9C04D7B8A85 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4672D851EE972357FA0A3CCAE7CB8C3 /* Pods-DYAlertControllerExample3-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FE990ED8F642F93E5480B983C9583237 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DYAlertController;
-			target = 9412185857293ACAC79FCE0F45CA831D /* DYAlertController */;
-			targetProxy = 93F67EF8A832C77220D43C67F5A55D1A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		452538FBD1AB4DF46B7698A3ECC87B7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C12F0F247A820593842F1D043C44AE8D /* Pods-DYAlertControllerExample3.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DYAlertControllerExample3/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DYAlertControllerExample3/Pods-DYAlertControllerExample3.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_DYAlertControllerExample3;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		770C36B80F608BB899BED3E6478BC273 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAA1D6B2DBA33D614AE433CD98FDEB1C /* DYAlertController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DYAlertController/DYAlertController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DYAlertController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DYAlertController/DYAlertController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DYAlertController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9595415D13D93B44F48347690230826A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7BB6FAC9D8C0628A996510A12849F7B /* Pods-DYAlertControllerExample3.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DYAlertControllerExample3/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DYAlertControllerExample3/Pods-DYAlertControllerExample3.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_DYAlertControllerExample3;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		C6662C57DAAE00702003ADD7B8AA307F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAA1D6B2DBA33D614AE433CD98FDEB1C /* DYAlertController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DYAlertController/DYAlertController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DYAlertController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DYAlertController/DYAlertController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DYAlertController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
-				FB45FFD90572718D82AB9092B750F0CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		30DCB469BEF22074E0656AF74C281097 /* Build configuration list for PBXNativeTarget "DYAlertController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C6662C57DAAE00702003ADD7B8AA307F /* Debug */,
-				770C36B80F608BB899BED3E6478BC273 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		56579609DDB78334BE151CAE18E8F536 /* Build configuration list for PBXNativeTarget "Pods-DYAlertControllerExample3" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9595415D13D93B44F48347690230826A /* Debug */,
-				452538FBD1AB4DF46B7698A3ECC87B7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>08765994DD5F432F18ABB351EDB01B2E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E5ECE1EA17FBD0D1787201C81CA665EC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0D0553E067AC88D92D80723B47DB2526</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-DYAlertControllerExample3-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>161A1D74A0D5DC96B5C18205B0E401E1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2EADB2B96672BB2E952398A6CB4D30A4</string>
+				<string>4DFB7C39AA6977FD51A767D87B0E45BC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>17CE0EB51A7D507751202B3CFD0DD1B9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4F32075263424ED96205939300ACE0CE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>18340F12838DEE43507667CC74401EB1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
+				<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1E857B80321BCD4744329B069C3EFCD8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AD692A4FAC02874F26BA6CD1529C9734</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>24DCA3E4196526D90384211B7D0F82A7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>A70CDAD61F90AC503C7D04CC22DA2923</string>
+				<string>FB45FFD90572718D82AB9092B750F0CA</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2EADB2B96672BB2E952398A6CB4D30A4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>DYAlertController.framework</string>
+			<key>path</key>
+			<string>DYAlertController.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>2EC317719DFF6A52D030B10270AAC89D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30DCB469BEF22074E0656AF74C281097</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C6662C57DAAE00702003ADD7B8AA307F</string>
+				<string>770C36B80F608BB899BED3E6478BC273</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>378A78ED3B6A59384B357CB241C33DC6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-DYAlertControllerExample3.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>39AAED217A971B911853CFD8D0D68589</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>DYAlertSettings.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3A4C6FD03CBCC20CCBA44FFCAA54634D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>849E060D6A6E26F78E4250013D35BFC0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>412AB28AD7627FA133296ECFD81B5670</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-DYAlertControllerExample3-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>421950EDE17343EEB9AA85EA0EAFBA15</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>DYActionCell.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>433CD3331B6C3787F473C941B61FC68F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>18340F12838DEE43507667CC74401EB1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>43E676B541BFE936D88C90BB4B347DB7</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F478B05B092F2C3209B3D0CC0BE127AB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>452538FBD1AB4DF46B7698A3ECC87B7C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C12F0F247A820593842F1D043C44AE8D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-DYAlertControllerExample3/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-DYAlertControllerExample3/Pods-DYAlertControllerExample3.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_DYAlertControllerExample3</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>47BA5C2263431CA8C5227120D95305E3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-DYAlertControllerExample3-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4B8D7F7BB58BED7965FDEC3F43C39481</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>DYAlertController-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4DFB7C39AA6977FD51A767D87B0E45BC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_DYAlertControllerExample3.framework</string>
+			<key>path</key>
+			<string>Pods_DYAlertControllerExample3.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>4EC91CC4497EDA1BEB69BB884439F6EA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FB6E8CAC25CFD144E561521C0F793602</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>4F32075263424ED96205939300ACE0CE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>path</key>
+			<string>DYActionCell.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>56579609DDB78334BE151CAE18E8F536</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9595415D13D93B44F48347690230826A</string>
+				<string>452538FBD1AB4DF46B7698A3ECC87B7C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>5950219ED6FCD3D9BFD11A54810FD68A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>93F50CCDC4045C1D7A8706F98DD1FE1A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5D8A81C8079A5E14B3E04EC173A4A25A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>421950EDE17343EEB9AA85EA0EAFBA15</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>66E27C28DE0194C21AA27EAA872C2E60</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6E7E5AF37923BFA48D6994B9BFC6535F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>72C61C232107EC39460EC0E47F4A23CA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DF18D9FF8382CA2F54A59B48BDB28339</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>74AF20740BB1A02B61EDC8871B318F46</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-DYAlertControllerExample3-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7696079BF66F25AED8B4800BE1EE1633</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-DYAlertControllerExample3-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>770C36B80F608BB899BED3E6478BC273</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E62A86BFB3F297B3E79E32922FB9B9E4</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/DYAlertController/DYAlertController-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/DYAlertController/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/DYAlertController/DYAlertController.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>DYAlertController</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>5950219ED6FCD3D9BFD11A54810FD68A</string>
+				<string>433CD3331B6C3787F473C941B61FC68F</string>
+				<string>161A1D74A0D5DC96B5C18205B0E401E1</string>
+				<string>9D3DD4A1CFB43127FEF2DAA994DA990D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>849E060D6A6E26F78E4250013D35BFC0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4F32075263424ED96205939300ACE0CE</string>
+				<string>DF18D9FF8382CA2F54A59B48BDB28339</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>DYAlertController</string>
+			<key>path</key>
+			<string>DYAlertController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EA35DAF43A05CA20E6019E06F4DCB63</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>DYAlertController-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93EB393E024AEA6AB574A162C17D941F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EA35DAF43A05CA20E6019E06F4DCB63</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>93F50CCDC4045C1D7A8706F98DD1FE1A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F495F79DA96CE796A176049F4FA88EA8</string>
+				<string>3A4C6FD03CBCC20CCBA44FFCAA54634D</string>
+				<string>FD4FA781A7514C8A9B30B3181C51F7F5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>DYAlertController</string>
+			<key>path</key>
+			<string>/Users/Dominik/Documents/Programmieren/Libraries/DYAlertController</string>
+			<key>sourceTree</key>
+			<string>&lt;absolute&gt;</string>
+		</dict>
+		<key>93F67EF8A832C77220D43C67F5A55D1A</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>9412185857293ACAC79FCE0F45CA831D</string>
+			<key>remoteInfo</key>
+			<string>DYAlertController</string>
+		</dict>
+		<key>9412185857293ACAC79FCE0F45CA831D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>30DCB469BEF22074E0656AF74C281097</string>
+			<key>buildPhases</key>
+			<array>
+				<string>9716271523A0A059AF9551BF5B553865</string>
+				<string>FB02216D0C687913A96FC0D9138FA07A</string>
+				<string>ECCC5CD71DBD780E0E2DED81D6F15DC6</string>
+				<string>4EC91CC4497EDA1BEB69BB884439F6EA</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>DYAlertController</string>
+			<key>productName</key>
+			<string>DYAlertController</string>
+			<key>productReference</key>
+			<string>2EADB2B96672BB2E952398A6CB4D30A4</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>9595415D13D93B44F48347690230826A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>B7BB6FAC9D8C0628A996510A12849F7B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-DYAlertControllerExample3/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-DYAlertControllerExample3/Pods-DYAlertControllerExample3.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_DYAlertControllerExample3</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9716271523A0A059AF9551BF5B553865</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5D8A81C8079A5E14B3E04EC173A4A25A</string>
+				<string>93EB393E024AEA6AB574A162C17D941F</string>
+				<string>1E857B80321BCD4744329B069C3EFCD8</string>
+				<string>CBCFE630558B6C4B60CEE1721D1DF530</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9D3DD4A1CFB43127FEF2DAA994DA990D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C886E2A97641FA88EC1D0E81F293A33E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A19787E70D9EC4352FF02C1F19848C5E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>56579609DDB78334BE151CAE18E8F536</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C0DB08D51AAA06BD1BD3E9C04D7B8A85</string>
+				<string>08765994DD5F432F18ABB351EDB01B2E</string>
+				<string>43E676B541BFE936D88C90BB4B347DB7</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>FE990ED8F642F93E5480B983C9583237</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-DYAlertControllerExample3</string>
+			<key>productName</key>
+			<string>Pods-DYAlertControllerExample3</string>
+			<key>productReference</key>
+			<string>4DFB7C39AA6977FD51A767D87B0E45BC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>A70CDAD61F90AC503C7D04CC22DA2923</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>AD692A4FAC02874F26BA6CD1529C9734</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>DYAlertController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B4672D851EE972357FA0A3CCAE7CB8C3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>74AF20740BB1A02B61EDC8871B318F46</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B7BB6FAC9D8C0628A996510A12849F7B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-DYAlertControllerExample3.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B7C562A9639D52316D8104C2FEC8957E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-DYAlertControllerExample3-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>C0DB08D51AAA06BD1BD3E9C04D7B8A85</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B4672D851EE972357FA0A3CCAE7CB8C3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C12F0F247A820593842F1D043C44AE8D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-DYAlertControllerExample3.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>C6662C57DAAE00702003ADD7B8AA307F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E62A86BFB3F297B3E79E32922FB9B9E4</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/DYAlertController/DYAlertController-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/DYAlertController/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/DYAlertController/DYAlertController.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>DYAlertController</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>C886E2A97641FA88EC1D0E81F293A33E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>66E27C28DE0194C21AA27EAA872C2E60</string>
+				<string>378A78ED3B6A59384B357CB241C33DC6</string>
+				<string>7696079BF66F25AED8B4800BE1EE1633</string>
+				<string>412AB28AD7627FA133296ECFD81B5670</string>
+				<string>74AF20740BB1A02B61EDC8871B318F46</string>
+				<string>0D0553E067AC88D92D80723B47DB2526</string>
+				<string>47BA5C2263431CA8C5227120D95305E3</string>
+				<string>B7C562A9639D52316D8104C2FEC8957E</string>
+				<string>B7BB6FAC9D8C0628A996510A12849F7B</string>
+				<string>C12F0F247A820593842F1D043C44AE8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-DYAlertControllerExample3</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-DYAlertControllerExample3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CBCFE630558B6C4B60CEE1721D1DF530</key>
+		<dict>
+			<key>fileRef</key>
+			<string>39AAED217A971B911853CFD8D0D68589</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D41D8CD98F00B204E9800998ECF8427E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0700</string>
+				<key>LastUpgradeCheck</key>
+				<string>0700</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>7DB346D0F39D3F0E887471402A8071AB</string>
+			<key>productRefGroup</key>
+			<string>161A1D74A0D5DC96B5C18205B0E401E1</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>9412185857293ACAC79FCE0F45CA831D</string>
+				<string>A19787E70D9EC4352FF02C1F19848C5E</string>
+			</array>
+		</dict>
+		<key>DF18D9FF8382CA2F54A59B48BDB28339</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>path</key>
+			<string>DYAlertController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E2A3BB784351F618402C536FA47DAF8E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E5ECE1EA17FBD0D1787201C81CA665EC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E62A86BFB3F297B3E79E32922FB9B9E4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>DYAlertController.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ECCC5CD71DBD780E0E2DED81D6F15DC6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>17CE0EB51A7D507751202B3CFD0DD1B9</string>
+				<string>72C61C232107EC39460EC0E47F4A23CA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F478B05B092F2C3209B3D0CC0BE127AB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B7C562A9639D52316D8104C2FEC8957E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F495F79DA96CE796A176049F4FA88EA8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>421950EDE17343EEB9AA85EA0EAFBA15</string>
+				<string>AD692A4FAC02874F26BA6CD1529C9734</string>
+				<string>39AAED217A971B911853CFD8D0D68589</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>DYAlertController</string>
+			<key>path</key>
+			<string>DYAlertController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F63691F989C93000E05F878731605F5E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>DYAlertController-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F8CE591ECD2F691D273703F0DA749467</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>DYAlertController.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FB02216D0C687913A96FC0D9138FA07A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E2A3BB784351F618402C536FA47DAF8E</string>
+				<string>24DCA3E4196526D90384211B7D0F82A7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FB45FFD90572718D82AB9092B750F0CA</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>RELEASE=1</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>FB6E8CAC25CFD144E561521C0F793602</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F63691F989C93000E05F878731605F5E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>FD4FA781A7514C8A9B30B3181C51F7F5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F8CE591ECD2F691D273703F0DA749467</string>
+				<string>E62A86BFB3F297B3E79E32922FB9B9E4</string>
+				<string>8EA35DAF43A05CA20E6019E06F4DCB63</string>
+				<string>4B8D7F7BB58BED7965FDEC3F43C39481</string>
+				<string>F63691F989C93000E05F878731605F5E</string>
+				<string>2EC317719DFF6A52D030B10270AAC89D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../../Xcode Projects/DYAlertControllerExample3/Pods/Target Support Files/DYAlertController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FE990ED8F642F93E5480B983C9583237</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>DYAlertController</string>
+			<key>target</key>
+			<string>9412185857293ACAC79FCE0F45CA831D</string>
+			<key>targetProxy</key>
+			<string>93F67EF8A832C77220D43C67F5A55D1A</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>D41D8CD98F00B204E9800998ECF8427E</string>
+</dict>
+</plist>

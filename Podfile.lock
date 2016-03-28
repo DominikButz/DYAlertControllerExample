@@ -1,10 +1,14 @@
 PODS:
-  - DYAlertController (0.3.1)
+  - DYAlertController (0.5.1)
 
 DEPENDENCIES:
-  - DYAlertController (~> 0.3.1)
+  - DYAlertController (from `~/Documents/Programmieren/Libraries/DYAlertController`)
+
+EXTERNAL SOURCES:
+  DYAlertController:
+    :path: ~/Documents/Programmieren/Libraries/DYAlertController
 
 SPEC CHECKSUMS:
-  DYAlertController: 20d4eccf3cbce2bdc387c73d3c90d736c6067c93
+  DYAlertController: 72dd675a46be4847c0605a6a85398ff9430f1da4
 
 COCOAPODS: 0.39.0
